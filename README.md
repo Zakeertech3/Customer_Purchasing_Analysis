@@ -1,65 +1,54 @@
-\documentclass[12pt]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
-\usepackage{titlesec}
-\usepackage{xcolor}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Customer Purchasing Behavior Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 40px; background: #f9f9f9; color: #333; }
+    h1, h2 { color: #0073e6; }
+    code, pre { background: #eee; padding: 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
 
-\titleformat{\section}{\large\bfseries\color{blue}}{\thesection}{1em}{}
-\titleformat{\subsection}{\normalsize\bfseries\color{black}}{\thesubsection}{1em}{}
+<h1>📊 Customer Purchasing Behavior Analysis Dashboard</h1>
 
-\title{\textbf{Customer Purchasing Behavior Analysis Dashboard}}
-\author{}
-\date{}
+<p><strong>Streamlit-based interactive dashboard</strong> to analyze customer purchase patterns, segment users, predict loyalty, and generate business insights.</p>
 
-\begin{document}
+<h2>🚀 Problem Statement</h2>
+<p>This dashboard helps businesses understand their customer base by analyzing demographics, purchasing patterns, and predicting loyalty scores using machine learning.</p>
 
-\maketitle
+<h2>🧠 Key Features</h2>
+<h3>🔍 Data Exploration</h3>
+<ul>
+  <li>Histograms, scatter plots, and correlation matrix</li>
+  <li>Region-wise breakdown of metrics</li>
+</ul>
 
-\section*{📊 Overview}
-This project is an interactive \textbf{Streamlit dashboard} designed to analyze and visualize customer purchasing behavior. It allows businesses to:
-\begin{itemize}
-  \item Explore customer data interactively.
-  \item Segment users using K-Means clustering.
-  \item Predict loyalty scores using machine learning.
-  \item Derive actionable business insights.
-\end{itemize}
+<h3>🎯 Customer Segmentation</h3>
+<ul>
+  <li>K-Means clustering with 3D visualizations</li>
+  <li>Cluster profiling and radar comparisons</li>
+  <li>Downloadable segmented CSV</li>
+</ul>
 
-\section*{🚀 Problem Statement}
-The goal is to help businesses understand customer patterns to improve marketing strategies and retention by analyzing demographics, purchase behavior, and loyalty factors.
+<h3>📈 Loyalty Score Prediction</h3>
+<ul>
+  <li>Predict scores using Random Forest</li>
+  <li>Interpret results with feature importance charts</li>
+</ul>
 
-\section*{🧠 Key Features}
-\subsection*{Data Exploration}
-\begin{itemize}
-  \item Descriptive stats, histograms, and scatter plots.
-  \item Correlation matrix and regional breakdowns.
-\end{itemize}
+<h3>💡 Business Insights</h3>
+<ul>
+  <li>Insights by age, region, income, frequency</li>
+  <li>Strategic marketing recommendations</li>
+</ul>
 
-\subsection*{Customer Segmentation}
-\begin{itemize}
-  \item K-Means clustering with 3D visualization.
-  \item Cluster profiling and radar comparisons.
-  \item Export segmented data to CSV.
-\end{itemize}
+<h2>🛠️ Tech Stack</h2>
+<p>Python, Streamlit, Pandas, scikit-learn, Plotly, Joblib</p>
 
-\subsection*{Loyalty Score Prediction}
-\begin{itemize}
-  \item Predict loyalty based on input.
-  \item Random Forest regression with feature importance.
-  \item Business interpretation of predictions.
-\end{itemize}
-
-\subsection*{Business Insights}
-\begin{itemize}
-  \item Segment performance by age, income, region, and frequency.
-  \item Visual dashboards and charts.
-  \item Strategic marketing recommendations.
-\end{itemize}
-
-\section*{🛠️ Technology Stack}
-Python, Streamlit, scikit-learn, Pandas, Plotly, Joblib
-
-\section*{📂 Project Structure}
-\begin{verbatim}
+<h2>📂 Project Structure</h2>
+<pre>
 .
 ├── app.py
 ├── Customer_Purchasing_Behavior.ipynb
@@ -67,44 +56,36 @@ Python, Streamlit, scikit-learn, Pandas, Plotly, Joblib
 ├── rf_model.pkl
 ├── scaler.pkl
 ├── Customer_Purchasing_Behaviors.csv
-\end{verbatim}
+</pre>
 
-\section*{🔧 Running Instructions}
-\begin{enumerate}
-  \item Clone the repository:
-  \begin{verbatim}
-  git clone https://github.com/yourusername/customer-behavior-analysis.git
-  cd customer-behavior-analysis
-  \end{verbatim}
-  \item Install dependencies:
-  \begin{verbatim}
-  pip install -r requirements.txt
-  \end{verbatim}
-  \item Run the app:
-  \begin{verbatim}
-  streamlit run app.py
-  \end{verbatim}
-\end{enumerate}
+<h2>📦 How to Run</h2>
+<ol>
+  <li>Clone the repo:<br>
+    <code>git clone https://github.com/yourusername/customer-behavior-analysis.git</code>
+  </li>
+  <li>Install dependencies:<br>
+    <code>pip install -r requirements.txt</code>
+  </li>
+  <li>Run the app:<br>
+    <code>streamlit run app.py</code>
+  </li>
+</ol>
 
-\section*{💡 Sample Insights}
-\begin{itemize}
-  \item Customers aged 46–55 and earning \$70K+ are highly loyal.
-  \item The West region has the highest average purchase value.
-  \item Loyalty increases with frequent purchases.
-\end{itemize}
+<h2>💡 Sample Insights</h2>
+<ul>
+  <li>46–55 year olds with $70K+ income show highest loyalty</li>
+  <li>West region performs best in sales</li>
+  <li>Loyalty increases with purchase frequency</li>
+</ul>
 
-\section*{✅ Future Enhancements}
-\begin{itemize}
-  \item Cloud integration for datasets/models.
-  \item Time-series trend tracking.
-  \item Session-based personalization.
-\end{itemize}
+<h2>✅ Future Plans</h2>
+<ul>
+  <li>Cloud-hosted model/dataset support</li>
+  <li>Session-based personalization</li>
+</ul>
 
-\section*{❤️ Built with Open-Source Tools}
-\begin{itemize}
-  \item Streamlit
-  \item scikit-learn
-  \item Plotly
-\end{itemize}
+<h2>❤️ Built with Open-Source Tools</h2>
+<p>Streamlit, Plotly, scikit-learn, and more</p>
 
-\end{document}
+</body>
+</html>
