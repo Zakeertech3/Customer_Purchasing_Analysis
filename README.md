@@ -63,7 +63,7 @@ The Streamlit application provides the following sections:
 ## Deployment
 
 You can access the deployed version of the Streamlit application here:
-[Insert Deployment Link Here]
+https://customerpurchasinganalysis-dkafz2fernhf8qtbbeyfmv.streamlit.app/
 
 ## Screenshots
 
