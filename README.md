@@ -67,5 +67,12 @@ https://customerpurchasinganalysis-dkafz2fernhf8qtbbeyfmv.streamlit.app/
 
 ## Screenshots
 
-[Include screenshots of the Streamlit application here]
+![Image](https://github.com/user-attachments/assets/c6211181-1c9b-41d4-8da0-96aa59bb0dd6)
+![Image](https://github.com/user-attachments/assets/c2a76786-392c-4b89-aa65-4606e71103e2)
+![Image](https://github.com/user-attachments/assets/20793b7b-cd38-4763-b292-3099253527e1)
+![Image](https://github.com/user-attachments/assets/977ccd28-a78e-4201-9eba-cfdfbb3d6c8d)
+![Image](https://github.com/user-attachments/assets/d1b1d7c3-53f4-4c63-8220-8570bd1592dd)
+![Image](https://github.com/user-attachments/assets/f6fffba8-2ff7-4026-8433-f7e1e90c192c)
+![Image](https://github.com/user-attachments/assets/911af1dc-8d3f-425d-8ef7-f61058d5b3e1)
+![Image](https://github.com/user-attachments/assets/ef28f52c-0428-42b8-8945-3a78e16e68f6)
 
